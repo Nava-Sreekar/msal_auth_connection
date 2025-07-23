@@ -3,7 +3,7 @@ import 'package:msal_auth/msal_auth.dart';
 
 const _clientId = '45b0b48a-279d-4b11-b67d-00edd7b3997f';
 const _redirectUri =
-    'msauth://com.example.test/yRsbbsf04GR9QKgK+y3ksruhmMM=';
+    'msauth://com.example.test/%2FfO3mkii3j2rUJFDwJFffrXEURA%3D';
 
 void main() {
   runApp(const MyApp());
@@ -73,7 +73,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<void> _signIn() async {
     try {
       final result = await _pca.acquireToken(
-        scopes: const ['https://graph.microsoft.com/user.read'],
+        scopes: const [
+          'https://dynamicconsultantsgroupb2c.onmicrosoft.com/45b0b48a-279d-4b11-b67d-00edd7b3997f',
+        ],
       );
       setState(() => _accessToken = result.accessToken);
     } catch (e) {

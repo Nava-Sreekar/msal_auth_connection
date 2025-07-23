@@ -36,7 +36,7 @@
 		<category android:name="android.intent.category.BROWSABLE" />
 		<data
 			android:host="com.example.test"
-			android:path="/yRsbbsf04GR9QKgK+y3ksruhmMM="
+			android:path="//fO3mkii3j2rUJFDwJFffrXEURA="
 			android:scheme="msauth" />
 	</intent-filter>
 </activity>
