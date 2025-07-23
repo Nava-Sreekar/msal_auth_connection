@@ -1,0 +1,31 @@
+PODS:
+  - Flutter (1.0.0)
+  - MSAL (2.2.0):
+    - MSAL/app-lib (= 2.2.0)
+  - MSAL/app-lib (2.2.0)
+  - msal_auth (2.0.2):
+    - Flutter
+    - MSAL (~> 2.2.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - msal_auth (from `.symlinks/plugins/msal_auth/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MSAL
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  msal_auth:
+    :path: ".symlinks/plugins/msal_auth/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  MSAL: 551bfa97974d3f6a82f9f53312976b9fa5904a52
+  msal_auth: 7c6fe42d566e2b60d3d229082e17ea7830bc581f
+
+PODFILE CHECKSUM: 352fcf90f17e1862e31388c51809cf5060099073
+
+COCOAPODS: 1.16.2
